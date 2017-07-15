@@ -1,0 +1,416 @@
+*{
+	margin:0;
+	padding:0;
+ }
+.swiper-container{
+	width:508px;
+	height:800px;
+	border:1px solid #ccc;
+}
+
+/*第一页-封面部分 */
+.swiper-slide:nth-of-type(1){
+      background-image:url(../imgs/bg5.jpg);
+      background-size: 508px 800px;
+}
+.resume{
+	width: 200px;
+	height:200px;
+	position:absolute;
+	top:180px;
+	left:154px;
+}
+.first-top{
+      width:280px;
+      height:100px;
+      position:absolute;
+      top:30px;
+      left:114px;
+      text-align:center;
+      color:white;
+      line-height:60px;
+}
+.first-top p{
+	font-size: 25px;
+}
+.first-middle{
+	    width:280px;
+      height:50px;
+      position:absolute;
+      top:450px;
+      left:114px;
+      text-align:center;
+      color:white;
+      line-height:50px;
+      font-size: 25px;
+}
+.first-bottom{
+	    width:320px;
+      height:50px;
+      position:absolute;
+      top:550px;
+      left:94px;
+      text-align:center;
+      color:white;
+      line-height:50px;
+      font-size: 25px;
+      font-family:"黑体";
+}
+.first-button{
+	    width:240px;
+      height:50px;
+      position:absolute;
+      top:650px;
+      left:134px;
+      background-image:url(../imgs/known-more.png);
+      background-size:240px 50px;
+      border-radius:25px;
+      text-align:center;
+      color:#111;
+      line-height:50px;
+      font-size: 20px;
+      font-family:"黑体";
+}
+
+/*第二页-基本信息部分*/
+.swiper-slide:nth-of-type(2){
+      background-image:url(../imgs/bg1.png);
+}
+.second-innercontainer{
+      width:440px;
+      height:620px;
+      background-image:url(../imgs/bg3.png);
+      background-size:440px 620px;
+      position:absolute;
+      top:80px;
+      left:34px;
+}
+.second-p{
+      font-size:30px;
+      color:#d2b48c;
+      position:absolute;
+      top:130px;
+      left:84px;
+      border:3px dashed #d2b48c;
+}
+.second-img{
+      display:block;
+      width: 120px;
+      height: 160px;
+      position:absolute;
+      top:130px;
+      left:284px;
+      box-shadow:-10px 10px 10px #CCC;
+
+}
+.second-text{
+      font-size:25px;
+      color:#d2b48c;
+      position:absolute;
+      top:210px;
+      left:84px;
+      line-height:40px;    
+}
+
+/*第三页-专业技能部分*/
+.swiper-slide:nth-of-type(3){
+      background-image:url(../imgs/bg8.jpg);
+}
+.third-title{
+      font-size: 40px;
+      color:white;
+      position: absolute;
+      top:80px;
+      left:110px;
+      padding:15px 70px;
+      border:2px dashed green;
+}
+.third-appicon{
+     display:block;
+     width:90px;
+     height:70px;
+     position:absolute;
+     left:80px;
+     top:220px; 
+}
+.third-wechat{
+     display:block;
+     width:90px;
+     height:70px;
+     position:absolute;
+     left:80px;
+     top:310px;  
+}
+.third-html{
+     display:block;
+     width:90px;
+     height:70px;
+     position:absolute;
+     left:80px;
+     top:400px;  
+}
+.third-js{
+     display:block;
+     width:90px;
+     height:70px;
+     position:absolute;
+     left:80px;
+     top:490px;  
+}
+.third-angular{
+     display:block;
+     width:90px;
+     height:70px;
+     position:absolute;
+     left:80px;
+     top:580px;  
+}
+.third-appicontext{
+      font-size:25px;
+      color:white;
+      position:absolute;
+      left:220px;
+      top:235px;
+}
+.third-wechattext{
+      font-size:25px;
+      color:white;
+      position:absolute;
+      left:220px;
+      top:325px;
+}
+.third-htmltext{
+      font-size:25px;
+      color:white;
+      position:absolute;
+      left:220px;
+      top:415px;
+}
+.third-jstext{
+      font-size:25px;
+      color:white;
+      position:absolute;
+      left:220px;
+      top:505px;
+}
+.third-angulartext{
+      font-size:25px;
+      color:white;
+      position:absolute;
+      left:220px;
+      top:595px;
+}
+
+/*第四页-学习及工作经历部分*/
+.swiper-slide:nth-of-type(4){
+      background-image:url(../imgs/bg7.jpg);
+      background-size:100% 100%;
+}
+.fourth-title{
+      font-size:35px;
+      color:white;
+      position: absolute;
+      top:50px;
+      left:70px;
+      padding:15px 70px;
+      border:2px dashed green;
+}
+.fourth-middleline{
+     width: 8px;
+     height: 0px;
+     background-color:green;
+     position:absolute;
+     left:250px;
+     top:170px;
+     /* animation:middleline 5s linear 3s; */
+     /* animation-fill-mode:forwards; */
+}
+@keyframes middleline{
+  0%{height: 0px;}
+  100%{height: 500px;}
+} 
+.fourth-firsttime{
+  font-size:25px;
+  color:white;
+  position:absolute;
+  left:20px;
+  top:220px;
+}
+.fourth-secondtime{
+  font-size:25px;
+  color:white;
+  position:absolute;
+  left:20px;
+  top:370px;
+}
+.fourth-thirdtime{
+  font-size:25px;
+  color:white;
+  position:absolute;
+  left:20px;
+  top:520px;
+}
+.fourth-firstcircle{
+  width: 24px;
+  height: 24px;
+  border-radius:13px;
+  background-color:#f23;
+  position:absolute;
+  top:220px;
+  left:242px;
+}
+.fourth-secondcircle{
+  width: 24px;
+  height: 24px;
+  border-radius:13px;
+  background-color:#f23;
+  position:absolute;
+  top:370px;
+  left:242px;
+}
+.fourth-thirdcircle{
+  width: 24px;
+  height: 24px;
+  border-radius:13px;
+  background-color:#f23;
+  position:absolute;
+  top:520px;
+  left:242px;
+}
+.fourth-firstschool{
+  font-size:25px;
+  color:white;
+  position:absolute;
+  left:300px;
+  top:220px;
+}
+.fourth-secondschool{
+  font-size:25px;
+  color:white;
+  position:absolute;
+  left:300px;
+  top:370px;
+}      
+.fourth-thirdcompany{
+  font-size:25px;
+  color:white;
+  position:absolute;
+  left:300px;
+  top:520px;
+}
+
+/*第五页-联系方式部分*/
+.swiper-slide:nth-of-type(5){
+      background-image:url(../imgs/bg9.jpg);
+      background-size:100% 100%;
+}
+.fifth-title{
+      font-size:35px;
+      color:white;
+      position: absolute;
+      top:50px;
+      left:130px;
+      padding:15px 50px;
+      border:2px dashed green;
+}
+.fifth-phone{
+  font-size:30px;
+  color:white;
+  position:absolute;
+  left:140px;
+  top:250px;
+}
+.fifth-QQ{
+  font-size:30px;
+  color:white;
+  position:absolute;
+  left:170px;
+  top:350px;
+}
+.fifth-WeChat{
+  font-size:30px;
+  color:white;
+  position:absolute;
+  left:130px;
+  top:450px;
+}
+
+/*第六页-尾页部分*/
+.swiper-slide:nth-of-type(6){
+      background-image:url(../imgs/bg2.png);
+      background-size:100% 100%;
+}
+.sixth-title{
+      font-size:45px;
+      color:white;
+      position: absolute;
+      top:150px;
+      left:150px;
+}
+
+/*音乐icon*/
+.music{
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  position:absolute;
+  top:10px;
+  left:460px;
+  z-index:1;
+  animation:musicicon 3s linear;
+  animation-iteration-count:infinite;
+}
+.music1{
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  position:absolute;
+  top:10px;
+  left:460px;
+  z-index:1;
+}
+#music2 img{
+  width: 40px;
+  height: 40px;
+  position:absolute;
+}
+@keyframes musicicon{
+  0%{transform:rotate(0deg);}
+  25%{transform:rotate(90deg);}
+  50%{transform:rotate(180deg);}
+  75%{transform:rotate(270deg);}
+  100%{transform:rotate(360deg);}
+}
+.musicstop{
+  position:absolute;
+  left:10px;
+  top:-1px;
+  color:#aaa;
+  font-size:38px;
+  display:none;
+}
+
+/*箭头icon*/
+.web-swipe-tip{
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  position:absolute;
+  top:740px;
+  left:234px;
+  z-index:1;
+  animation:swipetip 3s linear;
+  animation-iteration-count:infinite;
+}
+.web-swipe-tip img{
+  width:40px;
+  height:40px;
+}
+@keyframes swipetip{
+  0%{opacity:0.8;
+     top:740px;}
+  100%{opacity:0;
+      top:710px;}
+}                                                                 
+		
+
